@@ -27,12 +27,12 @@ const Step1 = () => {
         { icon: '/carga.png', text: "Contenedor" },
     ];
 
-    const saveDataPage = () => {
+    /*const saveDataPage = () => {
         let data = sessionStorage.getItem('data') ? JSON.parse(sessionStorage.getItem('data')!) : {}
         data.tipe = isSelected?.text
         sessionStorage.setItem("data", JSON.stringify(data))
         router.push('/sube-tu-propiedad/paso-2')
-    }
+    }*/
 
     return (
 
