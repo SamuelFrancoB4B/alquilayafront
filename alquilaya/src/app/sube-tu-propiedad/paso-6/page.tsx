@@ -1,3 +1,4 @@
+
 import Step6 from '@/Components/Sube-tu-propiedad/Step-6'
 import React from 'react'
 
