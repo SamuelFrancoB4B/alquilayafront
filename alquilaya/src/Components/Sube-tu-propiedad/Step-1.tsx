@@ -44,7 +44,7 @@ const Step1 = () => {
             </div>
 
             <div className="absolute bottom-6 right-6">
-                <ButtonCyan onClick={/*saveDataPage*/} />
+                <ButtonCyan/>
 
             </div>
 
