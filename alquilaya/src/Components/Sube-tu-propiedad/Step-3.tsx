@@ -25,12 +25,12 @@ const Step3 = () => {
         { icon: '/porcion-de-comida.png', text: "Catering" },
     ];
 
-    const saveDataPage = () => {
+   /* const saveDataPage = () => {
         let data = sessionStorage.getItem('data') ? JSON.parse(sessionStorage.getItem('data')!) : {}
         data.tipe = isSelected?.text
         sessionStorage.setItem("data", JSON.stringify(data))
         router.push('/sube-tu-propiedad/paso-4')
-    }
+    }*/
 
     return (
         <div>
