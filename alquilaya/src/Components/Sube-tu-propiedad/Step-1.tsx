@@ -35,7 +35,7 @@ const Step1 = () => {
     }*/
 
     return (
-
+<>
         <div>
             <div className="relative bg-gray-100 min-h-screen p-10">
                 <h2 className="ml-10 mt-10 text-black mb-2">Paso 1:</h2>
@@ -49,7 +49,7 @@ const Step1 = () => {
             </div>
 
         </div>
-
+        </>
     )
 }
 
