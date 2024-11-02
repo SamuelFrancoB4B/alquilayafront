@@ -1,5 +1,5 @@
 .input{
-    @apply w-full p-3 rounded-lg bg-slate-500 text-primary border-spacing-2 my-2
+    @apply w-full p-3 rounded-lg bg-slate-100 text-primary border-spacing-2 my-2
 }
 
 .submitButton{

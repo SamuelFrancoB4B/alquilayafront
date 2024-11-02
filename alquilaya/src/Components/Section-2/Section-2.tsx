@@ -7,7 +7,7 @@ import Link from "next/link";
 const Section2 = () => {
     return (
         <div className="bg-center container flex flex-col">
-            <div className="padding-section">
+            <div className="padding-section bg-red-500">
                 <h1 className="text-center text-primary pb-14">¿Cómo funciona?</h1>
                 <div className="container flex justify-between gap-5 mb-14">
                     <div className={styles.card}>
