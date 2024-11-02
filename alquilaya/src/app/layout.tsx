@@ -4,6 +4,7 @@ import "./globals.css";
 import Footer from "@/Components/Footer/Footer";
 import { AuthProvider } from "@/Components/contexts/authContext";
 import { ToastContainer } from "react-toastify";
+import 'tailwindcss/tailwind.css';
 
 
 const primaryFont = Figtree({

@@ -2,6 +2,7 @@ import Header from "@/Components/Header/Header";
 import Hero from "@/Components/Hero/Hero";
 import Section2 from "@/Components/Section-2/Section-2";
 import Section3 from "@/Components/Section-3/Section-3";
+import 'tailwindcss/tailwind.css';
 
 export default function Home() {
   return (
