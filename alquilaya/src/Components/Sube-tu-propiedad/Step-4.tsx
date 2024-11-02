@@ -6,7 +6,7 @@ const Step5 = () => {
     const [selectedImages, setSelectedImages] = useState([]);
     const maxImages = 5; 
     const maxSize = 2 * 1024 * 1024; 
-    const handleImageChange = (event) => {
+   /* const handleImageChange = (event) => {
         const files = Array.from(event.target.files);
         
         
@@ -18,7 +18,7 @@ const Step5 = () => {
         }
 
         setSelectedImages(validFiles);
-    };
+    };*/
 
     const handleUploadImages = () => {
         console.log("Imágenes listas para enviar:", selectedImages);
@@ -35,7 +35,7 @@ const Step5 = () => {
                     type="file"
                     multiple
                     accept="image/*"
-                    onChange={handleImageChange}
+                    /*onChange={handleImageChange}*/
                     className="bg-gray-50 border-2 border-[#aa31cf] rounded-lg p-2"
                 />
             </div>
