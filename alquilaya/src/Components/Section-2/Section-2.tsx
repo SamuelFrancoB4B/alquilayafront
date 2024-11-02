@@ -3,11 +3,12 @@ import { TbMapSearch } from "react-icons/tb";
 import { GiNotebook } from "react-icons/gi";
 import { HiHomeModern } from "react-icons/hi2";
 import Link from "next/link";
+import 'tailwindcss/tailwind.css';
 
 const Section2 = () => {
     return (
         <div className="bg-center container flex flex-col">
-            <div className="padding-section bg-red-500">
+            <div className="padding-section">
                 <h1 className="text-center text-primary pb-14">¿Cómo funciona?</h1>
                 <div className="container flex justify-between gap-5 mb-14">
                     <div className={styles.card}>
