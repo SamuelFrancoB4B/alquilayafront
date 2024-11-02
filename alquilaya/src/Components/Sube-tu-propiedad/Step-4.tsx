@@ -47,7 +47,7 @@ const Step5 = () => {
             </div>
 
             <div className="absolute bottom-6 right-6">
-                <ButtonCyan onClick={handleUploadImages}>Cargar</ButtonCyan>
+               {/* <ButtonCyan onClick={handleUploadImages}>Cargar</ButtonCyan>*/}
             </div>
         </div>
     );
