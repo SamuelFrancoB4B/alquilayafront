@@ -34,7 +34,7 @@ footer {
 
 body {
   color: var(--foreground);
-  background: var(--background);
+  background: red;
   font-family: var(--font-primary);
 }
 
