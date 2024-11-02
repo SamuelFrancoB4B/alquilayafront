@@ -1,0 +1,92 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+  --darkBlue: #190045;
+  --lightBlue: #9AEDFF;
+  --cyan: #2CFFDE;
+  --black: #000000;
+  --font-primary: 'Figtree', sans-serif; 
+
+}
+
+body {
+  @apply flex flex-col min-h-[100vh] font-primary;
+}
+
+footer {
+  @apply mt-auto;
+  }
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --background: #190045;
+    --foreground: #ffffff;
+    --darkBlue: #190045;
+    --lightBlue: #4DBDFF;
+    --cyan: #2CFFDE;
+    --black: #000000;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: var(--font-primary);
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+.padding-section{
+  @apply flex  flex-col items-center my-28;
+}
+
+.container {
+  @apply py-0 px-16 max-w-screen-2xl my-0 mx-auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-primary);
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+h4 {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+h5 {
+  font-size: 14px;
+}
+
+h6 {
+  font-size: 10px;
+}
+
+p {
+  font-size: 20px
+}
