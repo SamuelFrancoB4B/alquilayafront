@@ -22,7 +22,7 @@ const BookForm: React.FC<BookFormProps> = ({ propertyId, propertyName, unitPrice
       quantity: 1,
       unit_price: unitPrice,
     };
-
+  }
     /*const mp = new MercadoPago("TEST-fa93dbfd-43ff-4ad0-b01f-9fbd39faeafc", {
       locale: "es-AR", // Ajusta el idioma de tu región
     });*/
@@ -57,8 +57,8 @@ const BookForm: React.FC<BookFormProps> = ({ propertyId, propertyName, unitPrice
       }
     } catch (error) {
       console.error("Error al crear la preferencia:", error);
-    }
-  };*/
+    }*/
+  };
 
   return (
     <form className="flex flex-col justify-center">
