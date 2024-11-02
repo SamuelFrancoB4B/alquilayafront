@@ -11,3 +11,7 @@
     @apply mt-5 flex text-sm px-16 py-[10px] rounded-[20px] bg-secondary text-primary font-bold
     cursor-pointer transition-all duration-300 hover:scale-90 gap-2
 }
+
+.container{
+    @apply flex flex-col gap-4 w-full md:w-1/2 justify-center items-center
+}
