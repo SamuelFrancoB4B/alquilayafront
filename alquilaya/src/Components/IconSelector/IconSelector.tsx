@@ -11,7 +11,7 @@ const IconSelector = ({ data, isSelected, setIsSelected, numCols = 4, iconSize =
                         Icon {index + 1}
                     </button>
                 ))} */}
-                {data.map((d, index) => (
+                {/*data.map((d, index) => (
                     <button
                         key={index}
                         className="w-36 h-36 border border-gray-400 rounded-md m-1 flex flex-col items-center justify-center gap-2"
@@ -31,7 +31,7 @@ const IconSelector = ({ data, isSelected, setIsSelected, numCols = 4, iconSize =
                         </span>
 
                     </button>
-                ))}
+                ))*/}
             </div>
         </div>
     );
