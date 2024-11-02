@@ -1,4 +1,4 @@
-import ChangePasswordForm from '@/Components/ChangePasswordForm/ChangePassword'
+/*import ChangePasswordForm from '@/Components/ChangePasswordForm/ChangePassword'
 import Header from '@/Components/Header/Header'
 import { useSearchParams } from 'next/navigation'
 import React from 'react'
@@ -19,4 +19,4 @@ const page = () => {
 
 }
 
-export default page
+export default page*/
