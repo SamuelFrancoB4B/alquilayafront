@@ -45,11 +45,23 @@ body {
 }
 
 .padding-section{
-  @apply flex  flex-col items-center my-28;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 7rem; /* equivalente a my-28 */
+  margin-bottom: 7rem;
 }
 
 .container {
-  @apply py-0 px-16 max-w-screen-2xl my-0 mx-auto;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 4rem; /* equivalente a px-16 */
+  padding-right: 4rem;
+  max-width: 1536px; /* equivalente a max-w-screen-2xl */
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 h1,
