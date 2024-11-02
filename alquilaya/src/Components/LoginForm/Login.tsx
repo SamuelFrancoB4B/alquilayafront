@@ -9,6 +9,7 @@ import { FaGoogle } from "react-icons/fa";
 import AuthContext from "../contexts/authContext";
 import { toast } from "react-toastify";
 import 'react-toastify/dist/ReactToastify.css';
+import 'tailwindcss/tailwind.css';
 
 const LoginForm = () => {
   const {setUser} = useContext(AuthContext);
@@ -54,7 +55,7 @@ const LoginForm = () => {
   }, [data]);
 
   return (
-    <form onSubmit={handleSubmit} className='flex flex-col gap-4 w-full md:w-1/2 justify-center items-center'>
+    <form onSubmit={handleSubmit} className="flex flex-col gap-4 w-full md:w-1/2 justify-center items-center">
       <p className="text-sm pb-6">Ingresa tu email y contraseña para acceder</p>
       <label htmlFor="email">Correo electrónico</label>
       <input type='email'
