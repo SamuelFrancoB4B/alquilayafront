@@ -10,7 +10,6 @@ import IProperty from '@/Interfaces/IProperties';
 import { TbAirConditioning } from "react-icons/tb";
 import { GiHeatHaze } from "react-icons/gi";
 import { MdOutlinePool } from "react-icons/md";
-import BookForm from '@/Components/BookForm/BookForm';
 import FavButton from '@/Components/FavButton/FavButton';
 
 
@@ -81,10 +80,6 @@ const ProductDetail = async ({ params }: { params: { id: string } }) => {
           </div>
         </div>
         <div className='bg-primary rounded-2xl mb-28'>
-          <BookForm
-            propertyId={property.id}
-            propertyName={property.propertyName}
-            unitPrice={property.price}/>
         </div>
       </div>
     </div>
