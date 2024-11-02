@@ -1,4 +1,4 @@
-import IProperty from "@/Interfaces/IProperties";
+/*import IProperty from "@/Interfaces/IProperties";
 
 const mockProperties: IProperty[] = [
     {
@@ -20,7 +20,7 @@ const mockProperties: IProperty[] = [
       pool: false,
       parking: true,
       description: "Beautiful apartment in downtown New York, close to major attractions.",
-      propertyStatus: "For Sale",
+      propertyStatus: "pending" | "cancelled" | "maintenance" | "approved",
       photo: "https://img.freepik.com/fotos-premium/vision-vida-futura-materializa-forma-casa-ultramoderna-varios-pisos-horizontal_890329-4548.jpg",
     },
     {
@@ -114,4 +114,4 @@ const mockProperties: IProperty[] = [
   ];
   
   export default mockProperties;
-  
+ */ 
