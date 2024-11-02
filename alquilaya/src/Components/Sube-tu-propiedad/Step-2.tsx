@@ -21,10 +21,10 @@ const Step2 = () => {
         // Recupera los datos almacenados en sessionStorage, de lo contrario, crea un objeto vacío
         let data = sessionStorage.getItem("data") ? JSON.parse(sessionStorage.getItem("data")!) : {};
 
-        // Guarda en el objeto data los servicios seleccionados para agregarlos a la sesión
+       /* // Guarda en el objeto data los servicios seleccionados para agregarlos a la sesión
         if (isSelected) {
             data.services = [isSelected.text];
-        }
+        }*/
 
         // Actualiza sessionStorage con los nuevos datos en formato JSON
         sessionStorage.setItem("data", JSON.stringify(data));
