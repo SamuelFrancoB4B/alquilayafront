@@ -6,7 +6,7 @@ import IProperty from '@/Interfaces/IProperties';
 
 const page = async() => {
 
-    const url = "http://localhost:3001";
+    const url = process.env.BACK_URL;
 
         const [usersRes, propertiesRes] = await Promise.all([
           fetch(url + "/users", { method: "GET", cache: "no-store" }),
