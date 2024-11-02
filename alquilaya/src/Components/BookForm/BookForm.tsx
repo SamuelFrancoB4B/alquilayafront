@@ -27,7 +27,7 @@ const BookForm: React.FC<BookFormProps> = ({ propertyId, propertyName, unitPrice
       locale: "es-AR", // Ajusta el idioma de tu región
     });*/
 
-
+/*
     try {
       // Llamado a la API NestJS en el backend
       const response = await fetch("http://localhost:3001/mercadopago", {
@@ -58,7 +58,7 @@ const BookForm: React.FC<BookFormProps> = ({ propertyId, propertyName, unitPrice
     } catch (error) {
       console.error("Error al crear la preferencia:", error);
     }
-  };
+  };*/
 
   return (
     <form className="flex flex-col justify-center">
